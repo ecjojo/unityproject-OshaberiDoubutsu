@@ -1,2 +1,12 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+
+*.cs linguist-language=C#
+
+
+Assets/Plugins/** linguist-language=ignore
+Assets/Examples/** linguist-language=ignore
+*.dll linguist-language=ignore
+*.exe linguist-language=ignore
+*.meta linguist-language=ignore
